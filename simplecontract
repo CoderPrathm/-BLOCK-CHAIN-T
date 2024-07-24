@@ -1,0 +1,29 @@
+pragma solidity ^0.8.0; // Specify the Solidity version
+
+pragma solidity ^0.8.0; // Specify the Solidity version
+
+contract SimpleStorage {
+    uint256 private storedData; // Variable to store the data
+
+    // Function to set the value of storedData
+    function set(uint256 x) public {
+        storedData = x;
+    }
+
+    // Function to get the value of storedData
+    function get() public view returns (uint256) {
+        return storedData;
+    }
+}Storage {
+    uint256 private storedData; // Variable to store the data
+
+    // Function to set the value of storedData
+    function set(uint256 x) public {
+        storedData = x;
+    }
+
+    // Function to get the value of storedData
+    function get() public view returns (uint256) {
+        return storedData;
+    }
+}
